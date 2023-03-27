@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500;600;700&family=Nunito+Sans&family=Roboto:ital,wght@0,300;1,300&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Maket</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="slaider">
+        <div class="container">
+          <div class="menu">
+            <ul class="cities">
+              <li class="slider-nav__top-item">Rostov-on-Don, Admiral</li>
+              <li class="slider-nav__top-item">Sochi Thieves</li>
+              <li class="slider-nav__top-item">Rostov-on-Don Patriotic</li>
+            </ul>
+          </div>
+          <div class="textwithpict">
+            <div class="title">
+              <div class="title-txt">
+                <h1 class="txt-title">Completed projects</h1>
+                <div class="txt">
+                  <p class="text">
+                    Only a small part of the work performed by our company is
+                    presented on the site. For 14 years on in the construction
+                    market we have made happy more than 1000 families
+                  </p>
+                </div>
+              </div>
+
+              <div class="description">
+                <div class="description-col">
+                  <h3 class="description_title-top">City:</h3>
+                  <p class="description_" id="city-text"></p>
+                </div>
+                <div class="description-col">
+                  <h3 class="description_title-bot">apartment area:</h3>
+
+                  <p class="description_descr" id="apartment-text"></p>
+                </div>
+                <div class="description-col">
+                  <h3 class="description_title-top">Repair time:</h3>
+
+                  <p class="description_descr" id="repair-time-text"></p>
+                </div>
+                <div class="description-col">
+                  <h3 class="description_title-bot">Repair Cost:</h3>
+
+                  <p class="description_descr" id="repair-cost-text"></p>
+                </div>
+              </div>
+              <div class="slider-nav">
+                <img src="images/left.svg" alt="back slide" id="slider-prev" />
+                <div class="slider-nav__item"></div>
+                <div class="slider-nav__item"></div>
+                <div class="slider-nav__item"></div>
+                <img src="images/right.svg" alt="next slide" id="slider-next" />
+              </div>
+            </div>
+            <div id="slider-item" class="picture"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
